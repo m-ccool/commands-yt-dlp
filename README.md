@@ -1,7 +1,7 @@
 Commands for YT-DLP
 Notes and Commands for CMD application YT-DLP
 
-###To download a high-quality MP3 with the artist and cover art embedded using yt-dlp
+To download a high-quality MP3 with the artist and cover art embedded using yt-dlp
 
   Command for a playlist:
   (To download an entire playlist, use this command, replacing [PLAYLIST_URL] with the playlist link.)
