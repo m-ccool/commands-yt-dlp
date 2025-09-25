@@ -1,16 +1,14 @@
-# commands-yt-dlp
+Commands for YT-DLP
 Notes and Commands for CMD application YT-DLP
 
-To download a high-quality MP3 with the artist and cover art embedded using
-yt-dlp
+###To download a high-quality MP3 with the artist and cover art embedded using yt-dlp
 
-  Command for a playlist
-  To download an entire playlist, use this command, replacing [PLAYLIST_URL] with the playlist link.
+  Command for a playlist:
+  (To download an entire playlist, use this command, replacing [PLAYLIST_URL] with the playlist link.)
   
   ```yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --add-metadata --yes-playlist --parse-metadata "%(artist)s" -o "%(playlist_index)s - %(artist)s - %(title)s.%(ext)s" "[PLAYLIST_URL]"```
   
-  Command breakdown
-  
+  Command breakdown:  
       -x: Tells yt-dlp to extract only the audio from the video.
       --audio-format mp3: Converts the extracted audio to an MP3 file.
       --audio-quality 0: Fetches the highest possible MP3 quality (VBR).
